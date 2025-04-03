@@ -1,0 +1,37 @@
+/**
+ * Usando el modelo productor-consumidor,crea un
+ * programa cuyo productor lea cadenas de teclado
+ * y su consumidor obtenga dichas cadenas,cuente
+ * los caracteres recibidos y muestre el resultado
+ * por pantalla.Cuando el usuario introduzca"*"
+ * el programa debera finalizar
+ */
+
+ /**
+ * Diseña un programa que simule una colecta,que
+ * se realizara en 5 participantes.Cada uno de los
+ * participantes aportara,cada tiempo aleatorio entre
+ * 0 y 5 segundos una cantidad aleatoria entre 1€ y
+ * 20€. La colecta termina cuando se llegue a una
+ * cantidad de 2000€. La gestion de los fondos de
+ * la colecta se realizara en un objeto compartido
+ * por todos los participantes,donde se ira incrementando
+ * su valor
+ */
+
+ /**
+ * 1. Escribe una clase llamada Relevos que simule una carrera de relevos de la siguiente
+ * forma:
+ * •
+ * Cree 4 threads, que se quedarán a la espera de recibir alguna señal para comenzar a
+ * correr. Una vez creados los threads, se indicará que comience la carrera, con lo que
+ * uno de los threads deberá empezar a correr.
+ * •
+ * Cuando un thread termina de correr pone algún mensaje en pantalla y espera un par
+ * de segundos, pasando el testigo a otro de los hilos para que comience a correr, y
+ * terminando su ejecución (la suya propia).
+ * •
+ * Cuando el último thread termine de correr, el programa principal mostrará un mensaje
+ * indicando que todos los hijos han terminado.
+ */
+

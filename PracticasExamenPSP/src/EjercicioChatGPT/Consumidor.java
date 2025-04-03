@@ -14,7 +14,7 @@ public class Consumidor implements Runnable {
             synchronized (System.out) { // Evita que los mensajes se mezclen
                 System.out.println("🔵 Consumidor vació: " + valor);
             }
-            try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+            try { Thread.sleep(1500); } catch (InterruptedException e) { e.printStackTrace(); }
         }
     }
 }

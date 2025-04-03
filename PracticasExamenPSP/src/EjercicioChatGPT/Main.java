@@ -1,6 +1,4 @@
-import EjercicioChatGPT.Consumidor;
-import EjercicioChatGPT.Productor;
-import EjercicioChatGPT.Recipiente;
+package EjercicioChatGPT;
 
 public class Main {
     public static void main(String[] args) {
